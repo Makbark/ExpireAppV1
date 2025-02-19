@@ -54,35 +54,6 @@ npx expo start
 │-- 📜 README.md
 ```
 
-# 📱 Project Name
-
-## 📖 Overview
-A brief description of your app. Explain what it does and why it's useful.
-
-## 🚀 Features
-- ✨ Feature 1
-- 📌 Feature 2
-- 🌟 Feature 3
-- 🎨 Smooth UI with animations (if applicable)
-
-## 📷 Screenshots (Optional)
-Include some images or GIFs of your app in action.
-
-
-## 🏗️ Project Structure (Optional)
-```
-📂 your-project-name
-│-- 📂 src
-│   ├── 📂 components
-│   ├── 📂 screens
-│   ├── 📂 assets
-│   ├── 📂 navigation
-│   └── 📜 App.js
-│-- 📜 package.json
-│-- 📜 .gitignore
-│-- 📜 README.md
-```
-
 ## 🔗 API & Configuration
 ### 📡 FoodData Central API
 This project utilizes the [FoodData Central API](https://fdc.nal.usda.gov/api-key-signup.html) to fetch nutritional information for food items.
