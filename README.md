@@ -40,19 +40,6 @@ Start the development server:
 npx expo start
 ```
 
-## 🏗️ Project Structure (Optional)
-```
-📂 your-project-name
-│-- 📂 src
-│   ├── 📂 components
-│   ├── 📂 screens
-│   ├── 📂 assets
-│   ├── 📂 navigation
-│   └── 📜 App.js
-│-- 📜 package.json
-│-- 📜 .gitignore
-│-- 📜 README.md
-```
 
 ## 🔗 API & Configuration
 ### 📡 FoodData Central API
