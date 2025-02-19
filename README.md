@@ -9,7 +9,8 @@ Expire is a simple yet effective tool designed to help you track your food expir
 - 🔎 Auto Nutrition Search
 
 ## 📷 Screenshots (Optional)
-Include some images or GIFs of your app in action.
+![Simulator Screenshot - iPhone 16 Pro Max - 2025-02-19 at 10 42 38](https://github.com/user-attachments/assets/a1e4c121-8e98-4cfe-b782-ef1ddd9a7e74)
+
 
 ## 🛠️ Technologies Used
 - [React Native](https://reactnative.dev/)
