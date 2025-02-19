@@ -19,9 +19,6 @@ Expire is a simple yet effective tool designed to help you track your food expir
 ![Simulator Screenshot - iPhone 16 Pro Max - 2025-02-19 at 10 47 39](https://github.com/user-attachments/assets/d55dcbbc-f5fd-4947-b856-5dee56518bd9)
 
 
-
-
-
 ## 🛠️ Technologies Used
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.dev/)
@@ -71,23 +68,6 @@ A brief description of your app. Explain what it does and why it's useful.
 ## 📷 Screenshots (Optional)
 Include some images or GIFs of your app in action.
 
-## 🛠️ Technologies Used
-- [React Native](https://reactnative.dev/)
-- [Expo](https://expo.dev/)
-- Any other dependencies (e.g., React Navigation, Redux, Firebase, etc.)
-
-## ⚡ Installation & Setup
-Clone the repository and install dependencies:
-```sh
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
-npm install
-```
-
-Start the development server:
-```sh
-npx expo start
-```
 
 ## 🏗️ Project Structure (Optional)
 ```
