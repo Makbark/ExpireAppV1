@@ -90,4 +90,6 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📬 Contact
-For questions or suggestions, reach out at **markn2025@gmail.com** or connect on [LinkedIn](www.linkedin.com/in/markn0525).
+For questions or suggestions, reach out at **markn2025@gmail.com** or connect on [LinkedIn](www.linkedin.com/in/markn0525)
+
+).
