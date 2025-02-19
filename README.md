@@ -10,7 +10,8 @@ Expire is a simple yet effective tool designed to help you track your food expir
 
 ## 📷 Screenshots (Optional)
 
-<img src="[your-image-url-or-path](https://github.com/user-attachments/assets/a1e4c121-8e98-4cfe-b782-ef1ddd9a7e74)" alt="Description" width="400"/>
+<img src="(https://github.com/user-attachments/assets/a1e4c121-8e98-4cfe-b782-ef1ddd9a7e74)" alt="Description" width="400"/>
+<img src="(https://github.com/user-attachments/assets/a1e4c121-8e98-4cfe-b782-ef1ddd9a7e74)" alt="Description" style="width: 400px;">
 
 
 ## 🛠️ Technologies Used
