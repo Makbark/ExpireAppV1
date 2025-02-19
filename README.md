@@ -5,7 +5,7 @@ Expire is a simple yet effective tool designed to help you track your food expir
 
 ## 🚀 Features
 - 🥦 Nutrition Tracking
-- 🗓️ Expiration Raminders
+- 🗓️ Expiration Reminders
 - 🔎 Auto Nutrition Search
 
 ## 📷 Screenshots (Optional)
