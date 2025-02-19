@@ -1,4 +1,4 @@
-# 📱 Expire
+# 📱 Expire  (still in development)
 
 ## 📖 Overview
 Expire is a simple yet effective tool designed to help you track your food expiration dates and reduce waste. Just input your food items and their expiration dates, and Expire will notify you before they go bad—helping you save money and make the most of your groceries. This app is a personal project to gain experience in web and mobile development with React, so you may encounter occasional bugs. If you do, please reach out so I can work on improvements and provide a better experience. Thank you for trying out Expire, and I hope it helps make food management a little easier!
