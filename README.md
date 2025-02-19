@@ -1,13 +1,12 @@
-# 📱 Project Name
+# 📱 Expire
 
 ## 📖 Overview
-A brief description of your app. Explain what it does and why it's useful.
+Expire is a simple yet effective tool designed to help you track your food expiration dates and reduce waste. Just input your food items and their expiration dates, and Expire will notify you before they go bad—helping you save money and make the most of your groceries. This app is a personal project to gain experience in web and mobile development with React, so you may encounter occasional bugs. If you do, please reach out so I can work on improvements and provide a better experience. Thank you for trying out Expire, and I hope it helps make food management a little easier!
 
 ## 🚀 Features
-- ✨ Feature 1
-- 📌 Feature 2
-- 🌟 Feature 3
-- 🎨 Smooth UI with animations (if applicable)
+- 🥦 Nutrition Tracking
+- 🗓️ Expiration Raminders
+- 🔎 Auto Nutrition Search
 
 ## 📷 Screenshots (Optional)
 Include some images or GIFs of your app in action.
@@ -15,7 +14,10 @@ Include some images or GIFs of your app in action.
 ## 🛠️ Technologies Used
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.dev/)
-- Any other dependencies (e.g., React Navigation, Redux, Firebase, etc.)
+- [React Navigation](https://reactnavigation.org/docs/getting-started)
+- [Firebase Authentication](https://firebase.google.com/docs/auth)
+- [Async Storage](https://docs.expo.dev/versions/latest/sdk/async-storage/)
+- [Expo Tab Navigation](https://docs.expo.dev/router/advanced/tabs/)
 
 ## ⚡ Installation & Setup
 Clone the repository and install dependencies:
