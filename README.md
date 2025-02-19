@@ -11,7 +11,6 @@ Expire is a simple yet effective tool designed to help you track your food expir
 ## 📷 Screenshots (Optional)
 
 ![Simulator Screenshot - iPhone 16 Pro Max - 2025-02-19 at 10 42 38](https://github.com/user-attachments/assets/3c781faa-df28-4a84-8903-615ca51dece9)
-
 ![Simulator Screenshot - iPhone 16 Pro Max - 2025-02-19 at 10 42 38](https://github.com/user-attachments/assets/4f288487-e1f1-4a33-a1e9-22eefea26f05)
 
 
