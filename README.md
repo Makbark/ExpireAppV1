@@ -9,9 +9,9 @@ Expire is a simple yet effective tool designed to help you track your food expir
 - 🔎 Auto Nutrition Search
 
 ## 📷 Screenshots (Optional)
+![Simulator Screenshot - iPhone 16 Pro Max - 2025-02-19 at 10 42 38](https://github.com/user-attachments/assets/a3eac983-c484-40cb-8fe9-d6ac96da631f)
 
-<img src="(https://github.com/user-attachments/assets/a1e4c121-8e98-4cfe-b782-ef1ddd9a7e74)" alt="Description" width="400"/>
-<img src="(https://github.com/user-attachments/assets/a1e4c121-8e98-4cfe-b782-ef1ddd9a7e74)" alt="Description" style="width: 400px;">
+
 
 
 ## 🛠️ Technologies Used
