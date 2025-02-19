@@ -57,8 +57,92 @@ npx expo start
 │-- 📜 README.md
 ```
 
-## 🔗 API & Configuration (If Applicable)
-If your app uses external APIs, document them here.
+# 📱 Project Name
+
+## 📖 Overview
+A brief description of your app. Explain what it does and why it's useful.
+
+## 🚀 Features
+- ✨ Feature 1
+- 📌 Feature 2
+- 🌟 Feature 3
+- 🎨 Smooth UI with animations (if applicable)
+
+## 📷 Screenshots (Optional)
+Include some images or GIFs of your app in action.
+
+## 🛠️ Technologies Used
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- Any other dependencies (e.g., React Navigation, Redux, Firebase, etc.)
+
+## ⚡ Installation & Setup
+Clone the repository and install dependencies:
+```sh
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+cd YOUR_REPO
+npm install
+```
+
+Start the development server:
+```sh
+npx expo start
+```
+
+## 🏗️ Project Structure (Optional)
+```
+📂 your-project-name
+│-- 📂 src
+│   ├── 📂 components
+│   ├── 📂 screens
+│   ├── 📂 assets
+│   ├── 📂 navigation
+│   └── 📜 App.js
+│-- 📜 package.json
+│-- 📜 .gitignore
+│-- 📜 README.md
+```
+
+## 🔗 API & Configuration
+### 📡 FoodData Central API
+This project utilizes the [FoodData Central API](https://fdc.nal.usda.gov/api-key-signup.html) to fetch nutritional information for food items.
+
+### 🔑 API Key Setup
+To use the API, you need to obtain an API key:
+1. Sign up for an account at [FoodData Central](https://fdc.nal.usda.gov/api-key-signup.html).
+2. Generate an API key.
+3. Store the key in an environment variable.
+
+### 🛠️ Configuration
+Create a `.env` file in the root of your project and add:
+```env
+FOOD_DATA_API_KEY=your_api_key_here
+```
+Then, load it in your code:
+```javascript
+import 'dotenv/config';
+
+const API_KEY = process.env.FOOD_DATA_API_KEY;
+const BASE_URL = "https://api.nal.usda.gov/fdc/v1/foods/search";
+
+// Example Fetch Request
+async function fetchFoodData(query) {
+  const response = await fetch(`${BASE_URL}?query=${query}&api_key=${API_KEY}`);
+  const data = await response.json();
+  return data;
+}
+```
+
+### 📌 Usage Example
+Call the function with a food name to get its nutritional details:
+```javascript
+fetchFoodData("apple").then(data => console.log(data));
+```
+
+### ⚠️ Note
+- Keep your API key **private** and **never** commit it to GitHub. Use `.gitignore` to exclude your `.env` file.
+- Review the [FoodData Central API Documentation](https://fdc.nal.usda.gov/api-documentation.html) for more details.
+
 
 ## 🤝 Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
