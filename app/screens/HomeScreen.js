@@ -3,7 +3,7 @@ import FoodContainer from "../containers/FoodContainer";
 import { View, SafeAreaView, ScrollView, Text } from "react-native";
 import { useFonts } from "expo-font";
 import { LinearGradient } from "expo-linear-gradient";
-import DataContext from "../components/DataContext";
+import DataContext from "../Context/DataContext";
 import * as Progress from "react-native-progress";
 import styles from "../assets/Styles/HomeScreenStyles.js";
 

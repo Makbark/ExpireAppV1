@@ -12,10 +12,10 @@ import {
 import RNDateTimePicker from "@react-native-community/datetimepicker";
 import { useFonts } from "expo-font";
 import { LinearGradient } from "expo-linear-gradient";
-import DataContext from "../components/DataContext";
-import Food from "./Food.js";
-import { fetchSRLegacyNutrients } from "../components/FoodFetcher.js";
-import CreateRStyles from "../assets/Styles/CreateRStyles";
+import DataContext from "../Context/DataContext.js";
+import Food from "../components/Food";
+import { fetchSRLegacyNutrients } from "../hooks/FoodFetcher";
+import CreateRStyles from "../assets/Styles/CreateRStyles.js";
 
 const CreateReminderScreen = ({ onClose, onCreate }) => {
   const [isModalVisible, setModalVisible] = useState(false);

@@ -10,7 +10,7 @@ import {
 import PropTypes from "prop-types";
 import { useFonts } from "expo-font";
 import * as Progress from "react-native-progress";
-import DataContext from "../components/DataContext";
+import DataContext from "../Context/DataContext";
 
 /* Todo: Create a auto date converter from xx/xx/xxxx layout to 
 "April 4th, 2003" <- example of date layout*/

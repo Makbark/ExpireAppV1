@@ -6,14 +6,14 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { NavigationContainer } from "@react-navigation/native";
 import RegLoginScreen from "./app/screens/RegLoginScreen";
 
-import { TabBar } from "./app/components/TabBar";
+import { TabBar } from "./app/navigation/TabBar";
 import CreateReminderScreen from "./app/screens/CreateReminderScreen";
 
-import { DataProvider } from "./app/components/DataContext";
+import { DataProvider } from "./app/Context/DataContext";
 import { onAuthStateChanged } from "firebase/auth";
-import ProfileNavigator from "./app/components/ProfileNavigator";
+import ProfileNavigator from "./app/navigation/ProfileNavigator";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { auth } from "./app/components/firebaseConfig.js"; // Ensure this is the correct path
+import { auth } from "./app/services/firebaseConfig.js"; // Ensure this is the correct path
 import { SQLiteProvider, useSQLiteContext } from "expo-sqlite";
 
 const Tab = createBottomTabNavigator();

@@ -11,7 +11,7 @@ import {
 } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
-import { login } from "../components/AccountDataHandler";
+import { login } from "../services/AccountDataHandler";
 import styles from "../assets/Styles/LoginScreenStyles";
 
 const LoginScreen = ({ onClose, onSwitch }) => {

@@ -1,9 +1,9 @@
 import React, { useCallback, useState, useContext } from "react";
 import { View, Text, TextInput, Pressable, Image } from "react-native";
 import { useFocusEffect, CommonActions } from "@react-navigation/native";
-import { handelPasswordReset } from "../components/AccountDataHandler";
+import { handelPasswordReset } from "../services/AccountDataHandler";
 import styles from "../assets/Styles/AccountScreenStyles";
-import DataContext from "../components/DataContext";
+import DataContext from "../Context/DataContext";
 
 const AccountScreen = ({ navigation }) => {
   const [newPassword, setNewPassword] = useState("");

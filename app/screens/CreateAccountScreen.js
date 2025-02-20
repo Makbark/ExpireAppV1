@@ -10,9 +10,8 @@ import {
   SafeAreaView,
 } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
-import { createAccount } from "../components/AccountDataHandler";
+import { createAccount } from "../services/AccountDataHandler";
 import styles from "../assets/Styles/CreateAccountScreenStyles";
-
 const CreateAccountScreen = ({ onClose, onSwitch }) => {
   const [email, setEmail] = useState("");
   const [pass1, setPass1] = useState("");
@@ -22,7 +21,7 @@ const CreateAccountScreen = ({ onClose, onSwitch }) => {
   const checkMatch = () => {
     if (pass1 == pass2) {
       setValidCred(true);
-      setPassword(pass1);
+
       console.log("passwords match");
     } else {
       setValidCred(false);
